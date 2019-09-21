@@ -13,10 +13,10 @@
 //Type of ID asked for text
 public String userIDText = "Please enter your MTurk Worker ID (by starting to type): ";
 //Intro text (the \n indicate line breaks)
-public String introText = "Continue to imagine that you are in the world where people are saying \n that what you know and are certain about is unknowable. \n \n You will be shown pairs of faces. Simply select the face in each pair \n that you think looks more like someone in the world in which you \n know and are certain about something, but the people in this \n world say it is unknowable \n \n Click your mouse on this screen when you are ready to continue.";
+public String introText = "You will be shown pairs of faces. Simply select the face in each pair \n that you think looks more trustworthy \n \n Click your mouse on this screen when you are ready to continue.";
 //Prompt above the faces
 //public String facesPrompt = "Which face do you think looks more trustworthy?"; 
-public String facesPrompt = "Select the face in each pair that you think looks more like someone \n in the world in which you know and are certain about something, \n but the people in this world say it is unknowable";
+public String facesPrompt = "Select the face in each pair that you think looks more trustworthy";
 //The End message presented to participants
 String endText = "The survey is NOT over. Please return to \n qualtrics to complete the survey. \n Your code is ";
 //Whether a code is presented at the end or not (change to false if you do not want a code to be presented.
@@ -106,7 +106,7 @@ void draw() {
       mousePressed=false;
       background(0);
       imagePair = images.get(listNum);
-      println(imagePair.imageName1);
+      //println(imagePair.imageName1);
       imagePair.display();
       images.remove(listNum);
       state=2;
