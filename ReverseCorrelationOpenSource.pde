@@ -236,7 +236,7 @@ void keyPressed()
           //typing += key.toString();
     }
     //COMMENT OUT THIS CODE WHEN RUNNING ONLINE
-    //typing += key;
+    typing += key;
 
     //unfortunately backspace is permanent-coded as go back a tab in many browsers. Thus, this code does not work.  
     if (keyCode == BACKSPACE) {
