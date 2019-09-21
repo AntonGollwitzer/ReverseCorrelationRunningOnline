@@ -72,7 +72,7 @@ ReverseCorrelationOpenSource folder to your new directory.
 (Note: you need to get to the end of the test run [when it says "the survey is not over..."] for your responses to be stored and for the
 results.csv file to appear). 
 
-15) Send participants to your study: wwww.yourWebsite.com/yourDirectory/index.html
+15) Send participants to your study, for example: www.yourWebsite.com/yourDirectory/index.html
 
 16) If you want to have different conditions in your experiment, simply copy the ReverseCorrelationOpenSource.pde file and 
 name the new file ReverseCorrelationOpenSource2.pde. Go into the new ReverseCorrelationOpenSource2.pde file and
