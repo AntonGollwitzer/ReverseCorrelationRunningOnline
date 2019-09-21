@@ -10,7 +10,8 @@ Please read the following options carefully:
 a) To Run/Test the Program Locally Follow these steps: 
 
 1) Download the files included in this repository and store them in a local folder on your computer (name this folder:
-ReverseCorrelationOpenSource; this is actually important as the folder needs to be named the same as the Processing script [see below]). 
+ReverseCorrelationOpenSource; this is actually important as the folder needs to be named the same as the Processing script [see below]).
+That is, change the dowloaded folder name from "ReverseCorrelationRunningOnline-master" to "ReverseCorrelationOpenSource"
 2) Download Processing: https://processing.org/download/
 3) Open the ReverseCorrelationOpenSource.pde file using Processing and click on run (arrow on the top left).
 4) Please NOTE: This program CANNOT be used to collect data locally. It only is able to collect data online. The steps above are only
