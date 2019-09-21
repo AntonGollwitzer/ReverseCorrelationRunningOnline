@@ -14,7 +14,7 @@ ReverseCorrelationOpenSource; this is actually important as the folder needs to 
 That is, change the dowloaded folder name from "ReverseCorrelationRunningOnline-master" to "ReverseCorrelationOpenSource"
 2) Download Processing: https://processing.org/download/
 3) Open the ReverseCorrelationOpenSource.pde file using Processing and click on run (arrow on the top left).
-4) Please Note: The steps above are only to test/edit it the processing code locally. The program CANNOT be used to collect data locally; it can only be used to collect data online. 
+4) Please Note: The steps above are only to test/edit the Processing code locally. The program CANNOT be used to collect data locally; it can only be used to collect data online. 
 
 b) To Create Your Own Reverse Correlation Progam That Runs Online Follow these steps (read all the steps BEFORE beginning):
 
