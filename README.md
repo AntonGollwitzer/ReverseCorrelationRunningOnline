@@ -16,7 +16,8 @@ ReverseCorrelationOpenSource; this is actually important as the folder needs to 
 your ReverseCorrelationOpenSource folder.
 Also delete the "rcic_seed_1_time_Sep_19_2019_16_34.rData" file from ReverseCorrelationOpenSource (this is IMPORTANT). 
 
-3) Open R (Rstudio) and run the rcicr package created by Ron Dotsch to generate stimulus faces. Instructions on how to do this can be found
+3) Open R (Rstudio) and run the rcicr package created by Ron Dotsch to generate stimulus faces according to your needs (i.e., 
+number of face pairs, specific base face, etc). Instructions on how to do this can be found
 here: http://www.rondotsch.nl/rcicr/ 
 here: https://rdrr.io/rforge/rcicr/man/rcicr-package.html  
 and here: http://www.rondotsch.nl/wp-content/uploads/2014/09/Reverse-correlation-tutorial-1.pdf (if you don't know how to use R, I suggest
