@@ -3,21 +3,11 @@ Reverse Correlation (Faces; Run Online)
 
 Project entails a program created using Processing (https://processing.org/) that allows you to run reverse correlation experiments online. 
 
-An Example of what the program looks like: http://www.psychpopup.com/RCorExample/index.html
+An Example of what the expriment looks like: http://www.psychpopup.com/RCorExample/index.html
 
 Please read the following options carefully:
 
-a) To Run/Test the Program Locally Follow these steps: 
-
-1) Download the files included in this repository and store them in a local folder on your computer (name this folder:
-ReverseCorrelationOpenSource; this is actually important as the folder needs to be named the same as the Processing script [see below]).
-That is, change the dowloaded folder name from "ReverseCorrelationRunningOnline-master" to "ReverseCorrelationOpenSource"
-2) Download Processing: https://processing.org/download/
-3) Open the ReverseCorrelationOpenSource.pde file using Processing and click on run (arrow on the top left).
-4) Please NOTE: This program CANNOT be used to collect data locally. It only is able to collect data online. The steps above are only
-to see how the program looks and to test it locally. 
-
-b) To Create Your Own Reverse Correlation Progam That Runs Online Follow these steps (read all the steps BEFORE beginning):
+a) To Create Your Own Reverse Correlation Progam That Runs Online Follow these steps (read all the steps BEFORE beginning):
 
 1) Download the files included in this repository and store them in a local folder on your computer (name this folder:
 ReverseCorrelationOpenSource; this is actually important as the folder needs to be named the same as the Processing script [see below])
@@ -26,7 +16,8 @@ ReverseCorrelationOpenSource; this is actually important as the folder needs to 
 your ReverseCorrelationOpenSource folder.
 Also delete the "rcic_seed_1_time_Sep_19_2019_16_34.rData" file from ReverseCorrelationOpenSource (this is IMPORTANT). 
 
-3) Open R (Rstudio) and run the rcicr package created by Ron Dotsch to generate stimulus faces. Instructions on how to do this can be found
+3) Open R (Rstudio) and run the rcicr package created by Ron Dotsch to generate stimulus faces according to your needs (i.e., 
+number of face pairs, specific base face, etc). Instructions on how to do this can be found
 here: http://www.rondotsch.nl/rcicr/ 
 here: https://rdrr.io/rforge/rcicr/man/rcicr-package.html  
 and here: http://www.rondotsch.nl/wp-content/uploads/2014/09/Reverse-correlation-tutorial-1.pdf (if you don't know how to use R, I suggest
@@ -93,7 +84,7 @@ will see the program as in ReverseCorrelationOpenSource2.pde
 - The responses of participants in the first condition will be stored in results.csv, the responses of participants in the second
 condition will be stored in results2.csv.
 
-c) Analyze your data after running your online experiment
+b) Analyze your data after running your online experiment
 
 1) Download the results.csv output file that appeared on your server to your local machine/computer (Note: at least one person has to have
 completed the fill online reverse correlation task for this file to show up). 
@@ -109,3 +100,12 @@ your ReverseCorrelationOpenSource folder locally if you downloaded this reposito
 results.csv file and to run one participants versus many participants versus conditions, etc.  
 here: http://www.rondotsch.nl/rcicr/ 
 here: https://rdrr.io/rforge/rcicr/man/rcicr-package.html  
+
+c) To Test/Edit the Program Locally Follow these steps: 
+
+1) Download the files included in this repository and store them in a local folder on your computer (name this folder:
+ReverseCorrelationOpenSource; this is actually important as the folder needs to be named the same as the Processing script [see below]).
+That is, change the dowloaded folder name from "ReverseCorrelationRunningOnline-master" to "ReverseCorrelationOpenSource"
+2) Download Processing: https://processing.org/download/
+3) Open the ReverseCorrelationOpenSource.pde file using Processing and click on run (arrow on the top left).
+4) Please Note: The steps above (option c) is only to test/edit the Processing code locally. The program CANNOT be used to collect data locally; it can only be used to collect data online. 
