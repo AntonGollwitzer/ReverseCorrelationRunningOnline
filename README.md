@@ -7,15 +7,14 @@ An Example of what the program looks like: http://www.psychpopup.com/RCorExample
 
 Please read the following options carefully:
 
-a) To Run/Test the Program Locally Follow these steps: 
+a) To Test/Edit the Program Locally Follow these steps: 
 
 1) Download the files included in this repository and store them in a local folder on your computer (name this folder:
 ReverseCorrelationOpenSource; this is actually important as the folder needs to be named the same as the Processing script [see below]).
 That is, change the dowloaded folder name from "ReverseCorrelationRunningOnline-master" to "ReverseCorrelationOpenSource"
 2) Download Processing: https://processing.org/download/
 3) Open the ReverseCorrelationOpenSource.pde file using Processing and click on run (arrow on the top left).
-4) Please NOTE: This program CANNOT be used to collect data locally. It only is able to collect data online. The steps above are only
-to see how the program looks and to test it locally. 
+4) Please Note: The steps above are only to test/edit it the processing code locally. The program CANNOT be used to collect data locally; it can only be used to collect data online. 
 
 b) To Create Your Own Reverse Correlation Progam That Runs Online Follow these steps (read all the steps BEFORE beginning):
 
