@@ -26,7 +26,9 @@ Boolean includeCode = true;
 public int totalNumberTrials = 100;
 //server location where the php file is located. Change to match your server (do NOT change the "saveToCSV.php?dataToFile=" portion)
 //make sure you have the saveToCSV.php?dataToFile on your server (it's hosted on the github page of this project)
-public String serverLocation = "http://www.psychpopup.com/RCor/saveToCSV.php?dataToFile=";
+public String serverLocation = "http://www.psychpopup.com/RCorExample/saveToCSV.php?dataToFile=";
+//Base face name. What is the name of base face you used? 
+public String baseFaceName = "mnes";
 
 ///////////////////////////////////********END OF USER VARIABLES YOU CAN CHANGE EASILY***********//////////////////
 
@@ -300,22 +302,22 @@ public class imageObject{
   imageObject(int i)
   {
     if(i<10){
-      imageName1 = "rcic_mnes_1_0000" + i +"_inv.jpg";
-      imageFace1 = loadImage("rcic_mnes_1_0000" + i +"_inv.jpg");
-      imageName2 = "rcic_mnes_1_0000" + i +"_ori.jpg";
-      imageFace2 = loadImage("rcic_mnes_1_0000" + i +"_ori.jpg");
+      imageName1 = "rcic_" + baseFaceName + "_1_0000" + i +"_inv.jpg";
+      imageFace1 = loadImage("rcic_" + baseFaceName + "_1_0000" + i +"_inv.jpg");
+      imageName2 = "rcic_" + baseFaceName + "_1_0000" + i +"_ori.jpg";
+      imageFace2 = loadImage("rcic_" + baseFaceName + "_1_0000" + i +"_ori.jpg");
     }
     if(i>9 && i<100){
-      imageName1 = "rcic_mnes_1_000" + i +"_inv.jpg";
-      imageFace1 = loadImage("rcic_mnes_1_000" + i +"_inv.jpg");
-      imageName2 = "rcic_mnes_1_000" + i +"_ori.jpg";
-      imageFace2 = loadImage("rcic_mnes_1_000" + i +"_ori.jpg");
+      imageName1 = "rcic_" + baseFaceName + "_1_000" + i +"_inv.jpg";
+      imageFace1 = loadImage("rcic_" + baseFaceName + "_1_000" + i +"_inv.jpg");
+      imageName2 = "rcic_" + baseFaceName + "_1_000" + i +"_ori.jpg";
+      imageFace2 = loadImage("rcic_" + baseFaceName + "_1_000" + i +"_ori.jpg");
     }
      if(i>99){
-      imageName1 = "rcic_mnes_1_00" + i +"_inv.jpg";
-      imageFace1 = loadImage("rcic_mnes_1_00" + i +"_inv.jpg");
-      imageName2 = "rcic_mnes_1_00" + i +"_ori.jpg";
-      imageFace2 = loadImage("rcic_mnes_1_00" + i +"_ori.jpg");
+      imageName1 = "rcic_" + baseFaceName + "_1_00" + i +"_inv.jpg";
+      imageFace1 = loadImage("rcic_" + baseFaceName + "_1_00" + i +"_inv.jpg");
+      imageName2 = "rcic_" + baseFaceName + "_1_00" + i +"_ori.jpg";
+      imageFace2 = loadImage("rcic_" + baseFaceName + "_1_00" + i +"_ori.jpg");
     }
   }
 
