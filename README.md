@@ -7,16 +7,7 @@ An Example of what the expriment looks like: http://www.psychpopup.com/RCorExamp
 
 Please read the following options carefully:
 
-a) To Test/Edit the Program Locally Follow these steps: 
-
-1) Download the files included in this repository and store them in a local folder on your computer (name this folder:
-ReverseCorrelationOpenSource; this is actually important as the folder needs to be named the same as the Processing script [see below]).
-That is, change the dowloaded folder name from "ReverseCorrelationRunningOnline-master" to "ReverseCorrelationOpenSource"
-2) Download Processing: https://processing.org/download/
-3) Open the ReverseCorrelationOpenSource.pde file using Processing and click on run (arrow on the top left).
-4) Please Note: The steps above are only to test/edit the Processing code locally. The program CANNOT be used to collect data locally; it can only be used to collect data online. 
-
-b) To Create Your Own Reverse Correlation Progam That Runs Online Follow these steps (read all the steps BEFORE beginning):
+a) To Create Your Own Reverse Correlation Progam That Runs Online Follow these steps (read all the steps BEFORE beginning):
 
 1) Download the files included in this repository and store them in a local folder on your computer (name this folder:
 ReverseCorrelationOpenSource; this is actually important as the folder needs to be named the same as the Processing script [see below])
@@ -92,7 +83,7 @@ will see the program as in ReverseCorrelationOpenSource2.pde
 - The responses of participants in the first condition will be stored in results.csv, the responses of participants in the second
 condition will be stored in results2.csv.
 
-c) Analyze your data after running your online experiment
+b) Analyze your data after running your online experiment
 
 1) Download the results.csv output file that appeared on your server to your local machine/computer (Note: at least one person has to have
 completed the fill online reverse correlation task for this file to show up). 
@@ -108,3 +99,12 @@ your ReverseCorrelationOpenSource folder locally if you downloaded this reposito
 results.csv file and to run one participants versus many participants versus conditions, etc.  
 here: http://www.rondotsch.nl/rcicr/ 
 here: https://rdrr.io/rforge/rcicr/man/rcicr-package.html  
+
+c) To Test/Edit the Program Locally Follow these steps: 
+
+1) Download the files included in this repository and store them in a local folder on your computer (name this folder:
+ReverseCorrelationOpenSource; this is actually important as the folder needs to be named the same as the Processing script [see below]).
+That is, change the dowloaded folder name from "ReverseCorrelationRunningOnline-master" to "ReverseCorrelationOpenSource"
+2) Download Processing: https://processing.org/download/
+3) Open the ReverseCorrelationOpenSource.pde file using Processing and click on run (arrow on the top left).
+4) Please Note: The steps above (option c) is only to test/edit the Processing code locally. The program CANNOT be used to collect data locally; it can only be used to collect data online. 
