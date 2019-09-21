@@ -77,18 +77,16 @@ results.csv file to appear).
 16) If you want to have different conditions in your experiment, simply copy the ReverseCorrelationOpenSource.pde file and 
 name the new file ReverseCorrelationOpenSource2.pde. Go into the new ReverseCorrelationOpenSource2.pde file and
 search/find "results.csv" and change it to "results2.csv." Then copy the index.html file and name it index2.html. Go into the new 
-index2.html file and change the line that include "ReverseCorrelationOpenSource.pde" to "ReverseCorrelationOpenSource2.pde" Make sure the new
+index2.html file and change "ReverseCorrelationOpenSource.pde" to "ReverseCorrelationOpenSource2.pde" Make sure the new
 files are uploaded to your directory on your server. Then send participants in one condition to 
 wwww.yourWebsite.com/yourDirectory/index.html, and the others to wwww.yourWebsite.com/yourDirectory/index2.html.
-- Participants in the first condition will see the program as in ReverseCorrelationOpenSource.pde and participants in the second condition 
-will see the program as in ReverseCorrelationOpenSource2.pde
+- Participants in the first condition will see the program as in ReverseCorrelationOpenSource.pde and participants in the second condition will see the program as in ReverseCorrelationOpenSource2.pde
 - The responses of participants in the first condition will be stored in results.csv, the responses of participants in the second
 condition will be stored in results2.csv.
 
 b) Analyze your data after running your online experiment
 
-1) Download the results.csv output file that appeared on your server to your local machine/computer (Note: at least one person has to have
-completed the fill online reverse correlation task for this file to show up). 
+1) Download the results.csv output file that appeared on your server to your local machine/computer (Note: at least one person has to have completed the full online reverse correlation task for this file to show up). 
 
 2) Open resultsEdited.csv file that is included in this repository and add the first line from this csv file 
 (the headings) to the results.csv file that you downloaded in (1).  
