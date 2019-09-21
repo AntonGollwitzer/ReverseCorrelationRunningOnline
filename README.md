@@ -3,7 +3,7 @@ Reverse Correlation (Faces; Run Online)
 
 Project entails a program created using Processing (https://processing.org/) that allows you to run reverse correlation experiments online. 
 
-An Example of what the program looks like: http://www.psychpopup.com/RCorExample/index.html
+An Example of what the expriment looks like: http://www.psychpopup.com/RCorExample/index.html
 
 Please read the following options carefully:
 
