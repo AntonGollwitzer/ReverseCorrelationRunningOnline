@@ -39,7 +39,8 @@ need this output for step (8) below.
 7) Download Processing: https://processing.org/download/
 
 8) Open the ReverseCorrelationOpenSource.pde file using Processing, add the output of (6) at the top of the code where directed. 
-Change the number of trials variable to the number of image pairs you want to run (as directed at the top of the code). 
+Change the number of trials variable to the number of image pairs you want to run (as directed at the top of the code).
+Change the base face name if your base face was named something else. 
 Run the code (arrow on the top left).
 
 9) You now have a locally running reverse correlation script. Next steps are getting everything online. 
