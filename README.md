@@ -88,7 +88,7 @@ Open R (Rstudio) and open the generate_classification_images_Gollwitzer R file i
 your ReverseCorrelationOpenSource folder locally if you downloaded this repository).
 
 4) Run the R code. Variations of analyses can be found below and these can then be edited to match the headings you added to your 
-results.csv file and to run one participants versus many participants versus conditions, etc.  
+results.csv file and to run one participant versus many participants versus conditions, etc.  
 here: http://www.rondotsch.nl/rcicr/ 
 here: https://rdrr.io/rforge/rcicr/man/rcicr-package.html  
 
