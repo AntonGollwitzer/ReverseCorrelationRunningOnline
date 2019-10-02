@@ -44,7 +44,7 @@ Change the base face name if your base face was named something else. MAKE SURE 
 IMPORTANT: You do NOT need to code your website (i.e., html, etc.). The index.html file in the repository will do this for you.
 IMPORTANT: Do not use wix.com or squarespace or something like that. You need to get a domain name and a server, NOT a fancy website
 built by one of these companies. 
-- If you are having trouble with this step I can host your experiment if need be. Simply email me: anton.gollwitzer@gmail.com 
+- If you would prefer to skip this step, I'm happy to host your experiment on my server. Simply email me: anton.gollwitzer@gmail.com 
 
 If you set up your own server I'd recommend the following three steps: 
 - Get a domain and simple hosting from godaddy (there are cheaper and better options) or some other website hosting company.
