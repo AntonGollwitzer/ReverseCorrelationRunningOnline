@@ -30,11 +30,11 @@ your ReverseCorrelationOpenSource folder; do NOT simply copy-paste the stimuli f
 https://www.techwalla.com/articles/how-to-run-a-python-script
 
 5) Edit CodeToProduceTextATopProcessingCode.py to match the names of your face images and the number of your images and then run. You will
-need this output for step (8) below.
+need this output for step (7) below.
 
 6) Download Processing: https://processing.org/download/
 
-7) Open the ReverseCorrelationOpenSource.pde file using Processing, add the output of (6) at the top of the code where directed. 
+7) Open the ReverseCorrelationOpenSource.pde file using Processing, add the output of (5) at the top of the code where directed. 
 Change the number of trials variable to the number of image pairs you want to run (as directed at the top of the code).
 Change the base face name if your base face was named something else. 
 Run the code (arrow on the top left).
