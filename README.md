@@ -12,40 +12,36 @@ a) To Create Your Own Reverse Correlation Progam That Runs Online Follow these s
 1) Download the files included in this repository and store them in a local folder on your computer (name this folder:
 ReverseCorrelationOpenSource; this is actually important as the folder needs to be named the same as the Processing script [see below])
 
-2) Delete all the face images that you downloaded from this repository (all the files that start with "rcic_mnes_...") from 
-your ReverseCorrelationOpenSource folder.
-Also delete the "rcic_seed_1_time_Sep_19_2019_16_34.rData" file from ReverseCorrelationOpenSource (this is IMPORTANT). 
-
-3) Open R (Rstudio) and run the rcicr package created by Ron Dotsch to generate stimulus faces according to your needs (i.e., 
+2) Open R (Rstudio) and run the rcicr package created by Ron Dotsch to generate stimulus faces according to your needs (i.e., 
 number of face pairs, specific base face, etc). Instructions on how to do this can be found
 here: http://www.rondotsch.nl/rcicr/ 
 here: https://rdrr.io/rforge/rcicr/man/rcicr-package.html  
 and here: http://www.rondotsch.nl/wp-content/uploads/2014/09/Reverse-correlation-tutorial-1.pdf (if you don't know how to use R, I suggest
 looking at the start of this).
 
-4) Add the face stimuli that were outputted by the rcicr prompts in R to ReverseCorrelationOpenSource (found in a folder labeled stimuli).
+3) Add the face stimuli that were outputted by the rcicr prompts in R to ReverseCorrelationOpenSource (found in a folder labeled stimuli).
 The stimuli folder output of the rcicr prompts also includes an rData file that should be added to your ReverseCorrelationOpenSource folder. 
 MAKE SURE to add these files into ReverseCorrelationOpenSource directly (i.e., open the stimuli folder, select all, and copy paste into 
 your ReverseCorrelationOpenSource folder; do NOT simply copy-paste the stimuli folder into ReverseCorrelationOpenSource). 
 
-5) If you want to have less or more than 100 face pairs in your reverse correlation program (i.e., you had rcicr output less or more than
+4) If you want to have less or more than 100 face pairs in your reverse correlation program (i.e., you had rcicr output less or more than
 100 image pairs) or if you used a different base face in rcicr open CodeToProduceTextATopProcessingCode.py 
 - To open CodeToProduceTextATopProcessingCode.py you need to download python if you don't have it pre-installed. Here's a primer on how to download and run scripts in python: 
 https://www.techwalla.com/articles/how-to-run-a-python-script
 
-6) Edit CodeToProduceTextATopProcessingCode.py to match the names of your face images and the number of your images and then run. You will
+5) Edit CodeToProduceTextATopProcessingCode.py to match the names of your face images and the number of your images and then run. You will
 need this output for step (8) below.
 
-7) Download Processing: https://processing.org/download/
+6) Download Processing: https://processing.org/download/
 
-8) Open the ReverseCorrelationOpenSource.pde file using Processing, add the output of (6) at the top of the code where directed. 
+7) Open the ReverseCorrelationOpenSource.pde file using Processing, add the output of (6) at the top of the code where directed. 
 Change the number of trials variable to the number of image pairs you want to run (as directed at the top of the code).
 Change the base face name if your base face was named something else. 
 Run the code (arrow on the top left).
 
-9) You now have a locally running reverse correlation script. Next steps are getting everything online. 
+8) You now have a locally running reverse correlation script. Next steps are getting everything online. 
 
-10) You need to set up a server. Unfortunately, this isn't an easy task per se. But there are many online resources on how to do this.
+9) You need to set up a server. Unfortunately, this isn't an easy task per se. But there are many online resources on how to do this.
 IMPORTANT: You do NOT need to code your website (i.e., html, etc.). The index.html file in the repository will do this for you.
 IMPORTANT: Do not use wix.com or squarespace or something like that. You need to get a domain name and a server, NOT a fancy website
 built by one of these companies. 
@@ -60,21 +56,21 @@ server using this info.
 For more info see this primer on how to do all this (again there are many other options for instructions on how to do this):
 https://medium.com/notes-from-the-classroom/basic-guide-to-get-a-domain-set-up-web-hosting-and-upload-your-first-website-via-ftp-ecc7e5e4d557
 
-11) Go into the ReverseCorrelationOpenSource.pde and follow the instructions at the start of the code for setting up the link with your
+10) Go into the ReverseCorrelationOpenSource.pde and follow the instructions at the start of the code for setting up the link with your
 server and about uncommenting/commenting specific lines of the code to make it run online. 
 
-12) Set up a new directory (folder) on your server. Then use ftp or ssh to upload all the files in your 
+11) Set up a new directory (folder) on your server. Then use ftp or ssh to upload all the files in your 
 ReverseCorrelationOpenSource folder to your new directory. 
 
-13) Navigate to your webpage to test out the program, for example: www.myWebsite/myDirectory/index.html
+12) Navigate to your webpage to test out the program, for example: www.myWebsite/myDirectory/index.html
 
-14) Make sure that a results.csv file appears in your directory (i.e., on your server) after completing the test run 
+13) Make sure that a results.csv file appears in your directory (i.e., on your server) after completing the test run 
 (Note: you need to get to the end of the test run [when it says "the survey is not over..."] for your responses to be stored and for the
 results.csv file to appear). 
 
-15) Send participants to your study, for example: www.yourWebsite.com/yourDirectory/index.html
+14) Send participants to your study, for example: www.yourWebsite.com/yourDirectory/index.html
 
-16) If you want to have different conditions in your experiment, simply copy the ReverseCorrelationOpenSource.pde file and 
+15) If you want to have different conditions in your experiment, simply copy the ReverseCorrelationOpenSource.pde file and 
 name the new file ReverseCorrelationOpenSource2.pde. Go into the new ReverseCorrelationOpenSource2.pde file and
 search/find "results.csv" and change it to "results2.csv." Then copy the index.html file and name it index2.html. Go into the new 
 index2.html file and change "ReverseCorrelationOpenSource.pde" to "ReverseCorrelationOpenSource2.pde" Make sure the new
@@ -100,11 +96,3 @@ results.csv file and to run one participants versus many participants versus con
 here: http://www.rondotsch.nl/rcicr/ 
 here: https://rdrr.io/rforge/rcicr/man/rcicr-package.html  
 
-c) To Test/Edit the Program Locally Follow these steps: 
-
-1) Download the files included in this repository and store them in a local folder on your computer (name this folder:
-ReverseCorrelationOpenSource; this is actually important as the folder needs to be named the same as the Processing script [see below]).
-That is, change the dowloaded folder name from "ReverseCorrelationRunningOnline-master" to "ReverseCorrelationOpenSource"
-2) Download Processing: https://processing.org/download/
-3) Open the ReverseCorrelationOpenSource.pde file using Processing and click on run (arrow on the top left).
-4) Please Note: The steps above (option c) is only to test/edit the Processing code locally. The program CANNOT be used to collect data locally; it can only be used to collect data online. 
