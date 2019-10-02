@@ -235,10 +235,10 @@ void keyPressed()
     if (key != CODED) {
           //COMMENT OUT THE BELOW CODE WHEN RUNNING LOCALLY (it allows participants to type their participant number when uploaded to your server but locally
           //it will cause the program to crash)
-          //typing += key.toString();
+          typing += key.toString();
     }
-    //COMMENT OUT THIS CODE WHEN RUNNING ONLINE
-    typing += key;
+    //COMMENT OUT THIS CODE WHEN RUNNING ONLINE. Uncomment when running locally. 
+    //typing += key;
 
     //unfortunately backspace is permanent-coded as go back a tab in many browsers. Thus, this code does not work.  
     if (keyCode == BACKSPACE) {
@@ -246,7 +246,7 @@ void keyPressed()
         typing = typing.substring(0, typing.length()-2);
       }
     } else { 
-      typing = typing; // Each character typed by the user is added to the end of the String variable.
+      //typing = typing; // Each character typed by the user is added to the end of the String variable.
     }
 
     if (keyCode == ENTER)
