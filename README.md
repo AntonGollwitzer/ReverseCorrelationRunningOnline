@@ -36,7 +36,7 @@ need this output for step (7) below.
 
 7) Open the ReverseCorrelationOpenSource.pde file using Processing, add the output of (5) at the top of the code where directed. 
 Change the number of trials variable to the number of image pairs you want to run (as directed at the top of the code).
-Change the base face name if your base face was named something else. 
+Change the base face name if your base face was named something else. MAKE SURE to change the server to your server as directed. 
 
 8) You now have a locally running reverse correlation script. Next steps are getting everything online. (NOTE: If you run the code locally - arrow on the top left - you will get a syntax error; simply follow the comments around the syntax error in the code to be able to run the code locally). 
 
