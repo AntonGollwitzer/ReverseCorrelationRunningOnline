@@ -38,7 +38,6 @@ need this output for step (7) below.
 Change the number of trials variable to the number of image pairs you want to run (as directed at the top of the code).
 Change the base face name if your base face was named something else. 
 
-
 8) You now have a locally running reverse correlation script. Next steps are getting everything online. (NOTE: If you run the code locally - arrow on the top left - you will get a syntax error; simply follow the comments around the syntax error in the code to be able to run the code locally). 
 
 9) You need to set up a server. Unfortunately, this isn't an easy task per se. But there are many online resources on how to do this.
@@ -56,21 +55,18 @@ server using this info.
 For more info see this primer on how to do all this (again there are many other options for instructions on how to do this):
 https://medium.com/notes-from-the-classroom/basic-guide-to-get-a-domain-set-up-web-hosting-and-upload-your-first-website-via-ftp-ecc7e5e4d557
 
-10) Go into the ReverseCorrelationOpenSource.pde and follow the instructions at the start of the code for setting up the link with your
-server and about uncommenting/commenting specific lines of the code to make it run online. 
-
-11) Set up a new directory (folder) on your server. Then use ftp or ssh to upload all the files in your 
+10) Set up a new directory (folder) on your server. Then use ftp or ssh to upload all the files in your 
 ReverseCorrelationOpenSource folder to your new directory. 
 
-12) Navigate to your webpage to test out the program, for example: www.myWebsite/myDirectory/index.html
+11) Navigate to your webpage to test out the program, for example: www.myWebsite/myDirectory/index.html
 
-13) Make sure that a results.csv file appears in your directory (i.e., on your server) after completing the test run 
+12) Make sure that a results.csv file appears in your directory (i.e., on your server) after completing the test run 
 (Note: you need to get to the end of the test run [when it says "the survey is not over..."] for your responses to be stored and for the
 results.csv file to appear). 
 
-14) Send participants to your study, for example: www.yourWebsite.com/yourDirectory/index.html
+13) Send participants to your study, for example: www.yourWebsite.com/yourDirectory/index.html
 
-15) If you want to have different conditions in your experiment, simply copy the ReverseCorrelationOpenSource.pde file and 
+14) If you want to have different conditions in your experiment, simply copy the ReverseCorrelationOpenSource.pde file and 
 name the new file ReverseCorrelationOpenSource2.pde. Go into the new ReverseCorrelationOpenSource2.pde file and
 search/find "results.csv" and change it to "results2.csv." Then copy the index.html file and name it index2.html. Go into the new 
 index2.html file and change "ReverseCorrelationOpenSource.pde" to "ReverseCorrelationOpenSource2.pde" Make sure the new
